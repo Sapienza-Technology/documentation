@@ -1,4 +1,5 @@
 site_name: Sapienza Technology Team
+site_url: https://sapienza-technology.github.io/documentation/
 theme:
   name: material
   features:
