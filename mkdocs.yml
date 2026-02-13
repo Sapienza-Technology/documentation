@@ -1,0 +1,9 @@
+site_name: Sapienza Technology Team
+theme:
+  name: material
+  features:
+    - navigation.tabs  # Menu orizzontale figo
+    - search.suggest
+markdown_extensions:
+  - pymdownx.superfences # Per Mermaid
+  - admonition  
