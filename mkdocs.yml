@@ -6,11 +6,11 @@ theme:
   language: it  # Imposta la ricerca in italiano
   palette:
     - scheme: default
-      primary: orange      # Colore Sapienza?
-      accent: orange
+      primary: red      # Colore Sapienza?
+      accent: red
     - scheme: slate    # Modalità scura
-      primary: orange
-      accent: orange
+      primary: red
+      accent: red
   features:
     - navigation.tabs      # Menu in alto per i reparti
     - navigation.sections  # Sottocategorie a lato
