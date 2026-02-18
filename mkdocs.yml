@@ -5,7 +5,15 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  logo: assets/stt_logo.png
+    
   palette:
     scheme: slate
     primary: orange
     accent: deep orange
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
