@@ -2,17 +2,10 @@ site_name: Sapienza Technology Team Documentation
 site_url: https://sapienza-technology.github.io/documentation/
 theme:
   name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
   palette:
-    - scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Dark mode
-      primary: orange
-      accent: deep orange
-
-    - scheme: default
-      toggle:
-        icon: material/weather-sunny
-        name: Light mode
-      primary: orange
-      accent: deep orange
+    scheme: slate
+    primary: orange
+    accent: deep orange
