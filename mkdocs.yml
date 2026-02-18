@@ -5,7 +5,7 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  logo: assets/stt_logo.png
+  logo: assets/images/stt_logo.png
     
   palette:
     scheme: slate
