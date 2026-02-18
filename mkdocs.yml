@@ -1,45 +1,4 @@
-site_name: Sapienza Technology Team
-site_url: https://sapienza-technology-team.github.io/documentation/
-
+site_name: Sapienza Technology Team Documentation
+site_url: https://sapienza-technology.github.io/documentation/
 theme:
   name: material
-  language: it  # Imposta la ricerca in italiano
-  palette:
-    - scheme: default
-      primary: red      # Colore Sapienza?
-      accent: red
-    - scheme: slate    # Modalità scura
-      primary: red
-      accent: red
-  features:
-    - navigation.tabs      # Menu in alto per i reparti
-    - navigation.sections  # Sottocategorie a lato
-    - navigation.expand    # Espande i menu automaticamente
-    - search.suggest
-    - content.code.copy    # Comodo per copiare i comandi software
-
-# QUESTA È LA PARTE CHE DEFINISCE IL SITO
-nav:
-  - Home: index.md
-  - Onboarding: 
-      - Benvenuti: onboarding/index.md
-      - Setup Software: onboarding/software-setup.md
-  - Reparti:
-      - Instruments & Manipulation: 
-          - Intro: instruments-manipulation/index.md
-          - Hardware: instruments-manipulation/hardware.md
-          - Software: instruments-manipulation/software.md
-      - Structure & Navigation: 
-          - Meccanica: structure-navigation/chassis.md
-          - Navigazione: structure-navigation/navigation-stack.md
-      - Drone: drone/index.md
-      - Science & Mission: science-mission/index.md
-  - Management: management/index.md
-  - Standards:
-      - Coding Style: standards/coding-style.md
-
-markdown_extensions:
-  - admonition
-  - pymdownx.superfences # Per Mermaid (diagrammi)
-  - pymdownx.details     # Per i blocchi collassabili
-  - attr_list            # Per dimensionare le immagini
