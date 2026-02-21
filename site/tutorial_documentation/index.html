@@ -236,7 +236,7 @@
   <span class="md-ellipsis">
     
   
-    Markdown in 5min
+    Markdown for dummies
   
 
     
@@ -350,8 +350,41 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#step-c-install-zensical" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step C: Install Zensical
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-d-clone-repo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step D: Clone repo
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-how-to-contribute" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. How to contribute
+      
+    </span>
+  </a>
   
 </li>
       
@@ -424,8 +457,41 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#step-c-install-zensical" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step C: Install Zensical
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-d-clone-repo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step D: Clone repo
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-how-to-contribute" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. How to contribute
+      
+    </span>
+  </a>
   
 </li>
       
@@ -461,17 +527,21 @@
 <h3 id="step-a-install-the-tools">Step A: Install the Tools<a class="headerlink" href="#step-a-install-the-tools" title="Permanent link">&para;</a></h3>
 <ol>
 <li><strong>VS Code</strong>: Download and install <a href="https://code.visualstudio.com/">Visual Studio Code</a>. This is the editor we use.</li>
-<li><strong>Git</strong>: Download and install <a href="https://git-scm.com/downloads">Git</a>.<ul>
-<li><em>Windows users:</em> Select "Use Git from the Windows Command Prompt" during installation.</li>
-</ul>
-</li>
-<li><strong>Python</strong>: MkDocs runs on Python. Download <a href="https://www.python.org/downloads/">Python 3.x</a>.<ul>
+<li><strong>Git</strong>: Download and install <a href="https://git-scm.com/downloads">Git</a>.
+       <em>Windows users:</em> Select "Use Git from the Windows Command Prompt" during installation.</li>
+<li><strong>Python</strong>: Zensical runs on Python. Download <a href="https://www.python.org/downloads/">Python 3.x</a>.
+       !!! warning "Important for Windows"
+        During installation, make sure to check the box <strong>"Add Python to PATH"</strong> at the bottom of the installer window.</li>
 <li>
-<div class="admonition warning">
-<p class="admonition-title">Important for Windows</p>
-During installation, make sure to check the box <strong>"Add Python to PATH"</strong> at the bottom of the installer window.</div>
-</li>
-</ul>
+<p><strong>PyEnv</strong>: it is recommended by the developers to install Zensical on a virtual environment.
+       Install pyenv using the official installer:</p>
+<p><code>curl https://pyenv.run | bash</code></p>
+<p>Add these lines to ~/.bashrc:
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>export PYENV_ROOT=&quot;$HOME/.pyenv&quot;
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>eval &quot;$(pyenv init --path)&quot;
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>eval &quot;$(pyenv init -)&quot;
+</span></code></pre></div></p>
 </li>
 </ol>
 <h3 id="step-b-vs-code-setup">Step B: VS Code Setup<a class="headerlink" href="#step-b-vs-code-setup" title="Permanent link">&para;</a></h3>
@@ -479,6 +549,29 @@ During installation, make sure to check the box <strong>"Add Python to PATH"</st
 *   <strong>Markdown All in One</strong> (by Yu Zhang) - Helps with shortcuts and table of contents.
 *   <strong>Code Spell Checker</strong> (by Street Side Software) - Typos are unprofessional!
 *   <strong>GitHub Pull Requests</strong> - Makes syncing easier.</p>
+<h3 id="step-c-install-zensical">Step C: Install Zensical<a class="headerlink" href="#step-c-install-zensical" title="Permanent link">&para;</a></h3>
+<p>Open up a terminal window and install Zensical by first setting up a virtual environment and then using pip to install the Zensical package into it:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>python3 -m venv .venv
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>source .venv/bin/activate
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>pip install zensical
+</span></code></pre></div>
+<h3 id="step-d-clone-repo">Step D: Clone repo<a class="headerlink" href="#step-d-clone-repo" title="Permanent link">&para;</a></h3>
+<p>Clone the repo 'documentation' from the STT github.</p>
+<h2 id="2-how-to-contribute">2. How to contribute<a class="headerlink" href="#2-how-to-contribute" title="Permanent link">&para;</a></h2>
+<p>In the terminal you have activated your virtual environment on just run:</p>
+<ul>
+<li>
+<p><code>zensical build</code> to build the project.</p>
+</li>
+<li>
+<p><code>zensical serve</code> to start the web server to see your live edits on the code.</p>
+</li>
+<li>
+<p>Go to <a href="http://localhost:8000/documentation">localhost:8000</a> or simply click this link.</p>
+</li>
+</ul>
+<p>Remember to only push changes after checking that the local version is tested.
+Please write good commit comments, so we can know what you just uploaded.</p>
 <hr />
 
 
@@ -519,7 +612,7 @@ During installation, make sure to check the box <strong>"Add Python to PATH"</st
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../prova_content_tabs/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Markdown in 5min">
+          <a href="../prova_content_tabs/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Markdown for dummies">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -529,7 +622,7 @@ During installation, make sure to check the box <strong>"Add Python to PATH"</st
                 Previous
               </span>
               <div class="md-ellipsis">
-                Markdown in 5min
+                Markdown for dummies
               </div>
             </div>
           </a>

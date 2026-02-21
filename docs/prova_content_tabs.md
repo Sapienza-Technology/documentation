@@ -1,5 +1,5 @@
 
-## Content Tabs
+# Markdown for dummies
 
 esempio pazzo
 
@@ -28,9 +28,6 @@ esempio pazzo
 ???+ info "Questa nota pazza si piegha"
 
     guarda questo [link](https://squidfunk.github.io/mkdocs-material/reference/admonitions/?h=ad).
-
-
-# Markdown in 5min
 
 ## Headers
 ```
