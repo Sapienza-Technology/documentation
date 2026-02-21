@@ -2,7 +2,7 @@
 
 Documentation is the lifeline of our Rover. Whether you are working on the robotic arm, the drone, or the science mission, documenting your work allows the team to grow and prevents knowledge loss.
 
-This guide will walk you through setting up your computer to write, preview, and publish documentation using **MkDocs** and **GitHub**.
+This guide will walk you through setting up your computer to write, preview, and publish documentation using **Zensical** and **GitHub**.
 
 ---
 
