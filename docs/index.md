@@ -7,9 +7,9 @@ This guide will walk you through setting up your computer to write, preview, and
 
 Please follow this guide to avoid getting **salsicciato** by us mantainers.
 
-![Salsicciato](assets\images\sticker.webp)
+![Salsicciato](assets\images\salsiccia.webp)
 
-If you have troubles committing to the repo please talk to your group leaders first.
+If you have troubles committing to the repo please talk to your group leaders first. We can update and commit on your behalf if you don't want to learn Markdown.
 
 ## 0. What are Github and Zensical?
 **Github** is just a way for us to have backup of what is done, allowing everyone to edit the documentation and allowing us to revert it to the previous state if, let's say, someone deletes a page or does something by mistake.  

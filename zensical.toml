@@ -17,12 +17,35 @@ repo_name = "STT Documentation"
  nav = [
    { "Get started" = "index.md" },
    { "Markdown in 5min" = "markdown.md" },
+   { "Instruments & Manipulation" = [
+     { "Software" = "instruments/software.md" },
+     { "Electronics" = "instruments/electronics.md" },
+     { "Hardware" = "instruments/hardware.md" },
+   ]},
+   { "Structure & Navigation" = [
+     { "Software" = "structure/software.md" },
+     { "Electronics" = "structure/electronics.md" },
+     { "Hardware" = "structure/hardware.md" },
+   ]},
+   { "Cameras & Communication" = [
+     { "Software" = "cameras/software.md" },
+     { "Electronics" = "cameras/electronics.md" },
+     { "Hardware" = "cameras/hardware.md" },
+   ]},
+   { "Science & Mission Ops" = [
+     { "ERC Operations" = "science/operations.md" }
+   ]},
+   { "Drone" = [
+     { "Software" = "drone/software.md" },
+     { "Electronics" = "drone/electronics.md" },
+     { "Hardware" = "drone/hardware.md" },
+   ]}
  ]
 
 extra_css = ["stylesheets/extra.css"]
 
 [project.theme]
-#custom_dir = "overrides"
+custom_dir = "overrides"
 variant="classic"
 font.text = "Roboto"
 font.code = "Roboto Mono"
