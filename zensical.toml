@@ -4,7 +4,8 @@ site_description = "A new project generated from the default template project."
 site_author = "SASA STT"
 site_url = "https://sapienza-technology.github.io/documentation/"
 copyright = "Copyright &copy;2026 Sapienza Technology Team"
-
+repo_url = "https://github.com/Sapienza-Technology/documentation"
+repo_name = "STT Documentation"
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
@@ -13,12 +14,40 @@ copyright = "Copyright &copy;2026 Sapienza Technology Team"
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+ nav = [
+   { "Get started" = "index.md" },
+   { "Markdown in 5min" = "markdown.md" },
+ ]
 
 extra_css = ["stylesheets/extra.css"]
+
+[project.theme]
+#custom_dir = "overrides"
+variant="classic"
+font.text = "Roboto"
+font.code = "Roboto Mono"
+favicon = "assets/images/stt_favicon.jpg"
+logo = "assets/images/STT_minimal_BLACK.svg"
+language = "en"
+palette.scheme = "slate"
+palette.primary = "orange"
+palette.accent = "deep orange"
+
+[[project.extra.social]]
+icon = "simple/github"
+link = "https://github.com/Sapienza-Technology"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://it.linkedin.com/company/sapienza-technology-team"
+
+[[project.extra.social]]
+icon = "simple/youtube"
+link = "https://www.youtube.com/@technologyteamsapienza6180"
+
+[[project.extra.social]]
+icon = "simple/instagram"
+link = "https://www.instagram.com/sapienza_technology_team/"
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
@@ -27,19 +56,6 @@ extra_css = ["stylesheets/extra.css"]
 #
 # Read more: https://zensical.org/docs/customization/#additional-javascript
 #extra_javascript = ["javascripts/extra.js"]
-
-[project.theme]
-#custom_dir = "overrides"
-
-variant="classic"
-
-font.text = "Roboto"
-font.code = "Roboto Mono"
-
-
-favicon = "assets/images/stt_favicon.jpg"
-logo = "assets/images/STT_minimal_BLACK.svg"
-language = "en"
 
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
@@ -136,7 +152,7 @@ features = [
     # When pruning is enabled, only the visible navigation items are included
     # in the rendered HTML, reducing the size of the built site by 33% or more.
     # https://zensical.org/docs/setup/navigation/#navigation-pruning
-    #"navigation.prune",
+    "navigation.prune",
 
     # When sections are enabled, top-level sections are rendered as groups in
     # the sidebar for viewports above 1220px, but remain as-is on mobile.
@@ -172,33 +188,11 @@ features = [
     # When anchor following for the table of contents is enabled, the sidebar
     # is automatically scrolled so that the active anchor is always visible.
     # https://zensical.org/docs/setup/navigation/#anchor-following
-    # "toc.follow",
+     "toc.follow",
 
     # When navigation integration for the table of contents is enabled, it is
     # always rendered as part of the navigation sidebar on the left.
     # https://zensical.org/docs/setup/navigation/#navigation-integration
     #"toc.integrate",
 ]
-
-palette.scheme = "slate"
-palette.primary = "orange"
-palette.accent = "deep orange"
-
-
-[[project.extra.social]]
-icon = "simple/github"
-link = "https://github.com/Sapienza-Technology"
-
-[[project.extra.social]]
-icon = "fontawesome/brands/linkedin"
-link = "https://it.linkedin.com/company/sapienza-technology-team"
-
-[[project.extra.social]]
-icon = "simple/youtube"
-link = "https://www.youtube.com/@technologyteamsapienza6180"
-
-[[project.extra.social]]
-icon = "simple/instagram"
-link = "https://www.instagram.com/sapienza_technology_team/"
-
 

@@ -29,6 +29,20 @@ esempio pazzo
 
     guarda questo [link](https://squidfunk.github.io/mkdocs-material/reference/admonitions/?h=ad).
 
+
+## Project layout
+
+    zensical.toml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
+
+```py title="titolo.py" linenums="15"
+def puzza():
+
+    return 
+```
+
 ## Headers
 ```
 # H1 Header
