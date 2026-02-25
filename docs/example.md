@@ -9,5 +9,17 @@
 ### What to write
 
 1. General overview of the topic. Simple language, non-technical.
-2. Technical structure of the documentation. Add an explanatory schema. (Zensical has support for diagrams, tutorial on those will be published asap).
-3. Actual technical documentation, do your worst.
+2. Technical structure of the documentation. Add an explanatory schema. (Zensical has support for diagrams, you find examples [here](markdown/#flowcharts)).
+``` mermaid
+graph LR
+  A[Start] --> B{Encoder G4?};
+  B -->|Broken| C[Debug];
+  C -->|Electronic problem| D[Nic's Fault];
+  D -->|Nic pls fix it!| C;
+  C -->|Software problem| E[Old member's Fault];
+  E -->|Peri pls fix it| C;
+  D -->|Functioning| F[We can work!];
+  B ---->|Functioning| F;
+```
+3. Actual technical documentation, do your worst.  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do techscursione tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation espnow ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in encoder voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia salsiccia mollit anim id est cicciotto laborum sed ut bracciotto unde omnis iste natus error sit voluptatem.

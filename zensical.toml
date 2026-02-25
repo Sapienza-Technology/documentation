@@ -80,6 +80,12 @@ palette.scheme = "slate"
 palette.primary = "orange"
 palette.accent = "deep orange"
 
+#enabling of diagrams
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+
 [[project.extra.social]]
 icon = "simple/github"
 link = "https://github.com/Sapienza-Technology"
