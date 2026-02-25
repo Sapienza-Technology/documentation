@@ -5,7 +5,7 @@ Documentation is the lifeline of our Rover. Whether you are working on the robot
 
 This guide will walk you through setting up your computer to write, preview, and publish documentation using **Zensical** and **GitHub**.
 
-Please follow this guide to avoid getting **salsicciato** by us mantainers.
+Please follow this guide to avoid getting **salsicciato** by us maintainers.
 
 ![Salsicciato](assets\images\salsiccia.webp)
 
@@ -15,7 +15,7 @@ If you have troubles committing to the repo please talk to your group leaders fi
 **Github** is just a way for us to have backup of what is done, allowing everyone to edit the documentation and allowing us to revert it to the previous state if, let's say, someone deletes a page or does something by mistake.  
 We found no suitable video tutorial to link, so we will make one and publish it on youtube asap.
 
-**Zensical** is a toolchain to build static sites using a language called *Markdown*. It's very easy to use and you find some examples on [this page](https://sapienza-technology.github.io/documentation/markdown/)
+**Zensical** is a toolchain to build static sites using a language called *Markdown*. It's very easy to use and you find some examples on [this page](https://sapienza-technology.github.io/documentation/markdown/).
 
 ---
 
@@ -31,7 +31,7 @@ Before writing, you need to set up your "Development Environment". You only need
        !!! warning "Important for Windows"
         During installation, make sure to check the box **"Add Python to PATH"** at the bottom of the installer window.
 4. **PyEnv**: it is recommended by the developers to install Zensical on a virtual environment.
-       If you are on Ubunty (as you should) install pyenv using the official installer:
+       If you are on Ubuntu (as you should) install pyenv using the official installer:
 
     `curl https://pyenv.run | bash`
 
@@ -58,6 +58,11 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install zensical
 ```
+
+???+ info "About PyEnv installation"
+       You can skip PyEnv and install Zensical out of the virtual environment and it will work smoothly. 
+       Installing it in a venv is just how the developers recommend to install it.
+
 ### Step D: Clone repo
 You are now ready to clone the repo 'documentation' from the STT github and start editing it.
 

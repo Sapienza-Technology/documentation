@@ -7,38 +7,62 @@ copyright = "Copyright &copy;2026 Sapienza Technology Team"
 repo_url = "https://github.com/Sapienza-Technology/documentation"
 repo_name = "STT Documentation"
 
-# Zensical supports both implicit navigation and explicitly defined navigation.
-# If you decide not to define a navigation here then Zensical will simply
-# derive the navigation structure from the directory structure of your
-# "docs_dir". The definition below demonstrates how a navigation structure
-# can be defined using TOML syntax.
-#
-# Read more: https://zensical.org/docs/setup/navigation/
- nav = [
+nav = [
    { "Get started" = "index.md" },
    { "Markdown in 5min" = "markdown.md" },
+   { "Example documentation page" = "example.md" },
    { "Instruments & Manipulation" = [
-     { "Software" = "instruments/software.md" },
-     { "Electronics" = "instruments/electronics.md" },
-     { "Hardware" = "instruments/hardware.md" },
-   ]},
-   { "Structure & Navigation" = [
-     { "Software" = "structure/software.md" },
-     { "Electronics" = "structure/electronics.md" },
-     { "Hardware" = "structure/hardware.md" },
-   ]},
-   { "Cameras & Communication" = [
-     { "Software" = "cameras/software.md" },
-     { "Electronics" = "cameras/electronics.md" },
-     { "Hardware" = "cameras/hardware.md" },
-   ]},
-   { "Science & Mission Ops" = [
-     { "ERC Operations" = "science/operations.md" }
-   ]},
-   { "Drone" = [
+    { "Arm" = [
+     { "Software" = "instruments/arm/software.md" },
+     { "Electronics" = "instruments/arm/electronics.md" },
+     { "Hardware" = "instruments/arm/hardware.md" }
+    ]},
+    { "Drill" = [
+     { "Software" = "instruments/drill/software.md" },
+     { "Electronics" = "instruments/drill/electronics.md" },
+     { "Hardware" = "instruments/drill/hardware.md" }
+    ]},
+    { "End Effector" = [
+     { "Software" = "instruments/ee/software.md" },
+     { "Electronics" = "instruments/ee/electronics.md" },
+     { "Hardware" = "instruments/ee/hardware.md" }
+    ]}]},
+   {"Structure & Navigation" = [
+    { "Navigation" = [
+     { "Software" = "structure/navigation/software.md" },
+     { "Electronics" = "structure/navigation/electronics.md" },
+     { "Hardware" = "structure/navigation/hardware.md" }
+    ]},
+    { "Wheels" = [
+     { "Software" = "structure/wheels/software.md" },
+     { "Electronics" = "structure/wheels/electronics.md" },
+     { "Hardware" = "structure/wheels/hardware.md" }
+    ]}]},
+   {"Cameras & Communication" = [
+    { "Arm Cameras" = [
+     { "Software" = "cameras/arm/software.md" },
+     { "Electronics" = "cameras/arm/electronics.md" },
+     { "Hardware" = "cameras/arm_/hardware.md" }
+    ]},
+    { "Rover Cameras" = [
+     { "Software" = "cameras/rover/software.md" },
+     { "Electronics" = "cameras/rover/electronics.md" },
+     { "Hardware" = "cameras/rover/hardware.md" }
+    ]},
+    { "Antenna" = [
+     { "Software" = "cameras/antenna/software.md" },
+     { "Electronics" = "cameras/antenna/electronics.md" },
+     { "Hardware" = "cameras/antenna/hardware.md" }
+    ]}]},
+   {"Drone" = [
      { "Software" = "drone/software.md" },
      { "Electronics" = "drone/electronics.md" },
-     { "Hardware" = "drone/hardware.md" },
+     { "Hardware" = "drone/hardware.md" }
+   ]},
+   {"Science & Mission Ops" = [
+     {"ERC Operations" = "science/operations.md" },
+     {"Geological maps" = "science/geo.md"},
+     {"Tests done" = "science/tests.md"}
    ]}
  ]
 
