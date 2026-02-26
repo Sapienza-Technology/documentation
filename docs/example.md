@@ -16,9 +16,9 @@ graph LR
   B -->|Broken| C[Debug];
   C -->|Electronic problem| D[Nic's Fault];
   D -->|Nic pls fix it!| C;
-  C -->|Software problem| E[Old member's Fault];
-  E -->|Peri pls fix it| C;
-  D -->|Functioning| F[We can work!];
+  C -->|Software problem| E[Still Nic's Fault];
+  E -->|WE have to fix it| C;
+  C -->|Functioning| F[We can work!];
   B ---->|Functioning| F;
 ```
 3. Actual technical documentation, do your worst.  

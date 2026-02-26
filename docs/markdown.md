@@ -61,8 +61,11 @@ def puzza():
 *italic text*
 ***bold and italic***
 ~~strikethrough~~
+==marked text==
+^^underline text^^
 `inline code`
 ```
+
 
 ## Links and images
 ```
@@ -84,6 +87,12 @@ Ordered:
 2. Second item
 3. Third item
 ```
+
+## Definition lists
+`Definition list`
+
+:   This is the first definition
+:   This is the second definition
 
 ## Blockquotes
 ```
@@ -137,7 +146,6 @@ to create a line break.
 
 Or use a blank line for a new paragraph.
 ```
-
 ## Flowcharts
 ``` mermaid
 graph LR

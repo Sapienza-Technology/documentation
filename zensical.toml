@@ -12,20 +12,22 @@ nav = [
    { "Markdown in 5min" = "markdown.md" },
    { "Example documentation page" = "example.md" },
    { "Instruments & Manipulation" = [
+    {"General" = "instruments/general.md"},
     { "Arm" = [
      { "Software" = "instruments/arm/software.md" },
      { "Electronics" = "instruments/arm/electronics.md" },
-     { "Hardware" = "instruments/arm/hardware.md" }
+     { "Hardware" = "instruments/arm/hardware.md" },
+      {"Code repository" = "instruments/arm/repo.md"},
+      { "End Effector" = [
+        { "Software" = "instruments/arm/ee/software.md" },
+        { "Electronics" = "instruments/arm/ee/electronics.md" },
+        { "Hardware" = "instruments/arm/ee/hardware.md" }
+      ]}
     ]},
     { "Drill" = [
      { "Software" = "instruments/drill/software.md" },
      { "Electronics" = "instruments/drill/electronics.md" },
      { "Hardware" = "instruments/drill/hardware.md" }
-    ]},
-    { "End Effector" = [
-     { "Software" = "instruments/ee/software.md" },
-     { "Electronics" = "instruments/ee/electronics.md" },
-     { "Hardware" = "instruments/ee/hardware.md" }
     ]}]},
    {"Structure & Navigation" = [
     { "Navigation" = [
@@ -85,6 +87,18 @@ palette.accent = "deep orange"
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
 ]
+
+#enabling of definition lists
+[project.markdown_extensions.def_list]
+
+#enabling of content tabs
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.tilde]
 
 [[project.extra.social]]
 icon = "simple/github"

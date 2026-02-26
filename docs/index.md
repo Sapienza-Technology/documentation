@@ -67,6 +67,7 @@ pip install zensical
 You are now ready to clone the repo 'documentation' from the STT github and start editing it.
 
 Every time you open the project to do some changes first **Pull** to see if there are any changes incoming.
+  c -->|Functioning| F[We can work!];
 
 ---
 
