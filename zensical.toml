@@ -95,6 +95,11 @@ custom_fences = [
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
 
+#emoji support
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji" 
+emoji_generator = "zensical.extensions.emoji.to_svg"
+
 [project.markdown_extensions.pymdownx.caret]
 [project.markdown_extensions.pymdownx.keys]
 [project.markdown_extensions.pymdownx.mark]
