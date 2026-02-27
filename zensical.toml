@@ -83,6 +83,8 @@ palette.primary = "orange"
 palette.accent = "deep orange"
 
 #enabling of diagrams
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.pymdownx.details]
 [project.markdown_extensions.pymdownx.superfences]
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }

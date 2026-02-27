@@ -37,7 +37,6 @@ Before writing, you need to set up your "Development Environment". You only need
 
     Then follow the message that appears in the console and add those lines to ~/.bashrc
 
-
 ???+ info "About PyEnv installation"
        You can skip PyEnv and install Zensical out of the virtual environment and it will work smoothly. 
        Installing it in a venv is just how the developers recommend to install it.
