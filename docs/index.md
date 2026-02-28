@@ -66,11 +66,10 @@ pip install zensical
 You are now ready to clone the repo 'documentation' from the STT github and start editing it.
 
 Every time you open the project to do some changes first **Pull** to see if there are any changes incoming.
-  c -->|Functioning| F[We can work!];
 
 ---
 
-## 2. How to contribute
+## 2. How to build and commit
 In the terminal you have activated your virtual environment on just run:
 
 * `zensical build` to build the project. But you can simple run the `serve` command and it will automatically build at every save.
@@ -81,11 +80,21 @@ In the terminal you have activated your virtual environment on just run:
 
 * Verify your changes and then **Commit** your edits. When you are done editing just **Push** in the repo.
 
-!!! note "About versioning"
+!!! warning "Versioning"
        As a good practice always **Push** your changes when you finish your edit session.  
        Remember to only push changes after checking that the local version is tested, otherwise you could get **salsicciato** if you have to correct your pushes.  
        Please write good commit comments, so we can know what you just uploaded(another way to get **salsicciato**).
 
 It is recommended to read the [Markdown page](https://sapienza-technology.github.io/documentation/markdown/) to understand how to write markdown.
+
+## 3. How to actually use Github
+
+If you need to add info on the documentation:
+
+1. First prepare your changes on the main branch.
+2. Create a new branch of the repo with name: "division_name-branch_name"
+3. Commit your changes on the new branch
+4. Once finalized all the changes ask your team leaders to check
+5. After the check ask team leaders for the merge
 
 ---

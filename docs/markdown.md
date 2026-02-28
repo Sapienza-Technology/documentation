@@ -3,6 +3,9 @@
 
 Here is a [Demo page](https://docs.owid.io/projects/etl/guides/demo/) for all Zensical features
 
+![Panino](assets\images\panino.webp)
+<!--img src="assets\images\panino.webp" alt="Panino" class="my-image"-->
+
 esempio pazzo
 
 ### Contenuto
@@ -29,7 +32,20 @@ esempio pazzo
 
 ???+ info "Questa nota pazza si piegha"
 
-    guarda questo [link](https://squidfunk.github.io/mkdocs-material/reference/admonitions/?h=ad).
+    basta metterci un + davanti  
+    guarda questo [link](https://squidfunk.github.io/mkdocs-material/reference/admonitions/?h=ad) per altre info.
+
+!!! warning "SEI UN CLOWN"
+
+    se leggi questa nota
+
+!!! bug "BUGGHISSIMO"
+
+    Oh no, uccidetelo!
+
+!!! quote "Poche slide con elementi che si muovono"
+
+    - cit. Giorgio
 
 
 ## Project layout

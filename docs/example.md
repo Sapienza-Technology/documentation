@@ -1,10 +1,13 @@
 # --- Example documentation structure ---
 # Title of section goes here
-
 ## Title of subsection goes here
 
 ### Maybe put here a nice image, better if it's meme
 ![Clown](assets\images\clown.webp)
+
+!!! warning "WARNING"
+
+    Attention: Clown Warning!
 
 ### What to write
 
@@ -22,7 +25,7 @@ clowns_folder/                # The clowns of STT
     peri.html                 # He tries very hard to be one
 not_clowns_folder/            # They are "probably" not clowns
   problably_not_clowns/       # You never know, maybe they are clowns in disguise
-    a_gravili.php             # Not a clown, but the script crashes every time
+    a_gravili.php             # Not a clown, but the detector crashes every time
     viscio.xls                # Sometimes seems like a clown when sleeping 
   absolutely_not_clowns/      # Surely not clowns
     lorenzo.bmp               # The "not clown" god of images compression
@@ -32,7 +35,7 @@ __init__.py                   # empty file, we do not need to initialize clowns,
 clown_detector.py             # Well, you need a way to detect them, sometimes the script crashes
 readme_please.txt             # Or maybe not
 ```
-<img src="https://sapienza-technology.github.io/documentation/assets/images/viscio.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/salsiccia.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/clown.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/viscio.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/salsiccia.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/clown.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/viscio.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/salsiccia.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/clown.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/viscio.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/salsiccia.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/clown.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/viscio.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/salsiccia.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/clown.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/viscio.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/salsiccia.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/clown.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/viscio.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/salsiccia.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/clown.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/viscio.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/salsiccia.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/clown.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/viscio.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/salsiccia.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/clown.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/viscio.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/salsiccia.webp" width="20" height="20"> <img src="https://sapienza-technology.github.io/documentation/assets/images/clown.webp" width="20" height="20"> 
+
 ``` mermaid
 graph LR
   A[Start] --> B{Encoder G4?};
@@ -45,3 +48,5 @@ graph LR
 ```
 1. Actual technical documentation, do your worst.  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do techscursione tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation espnow ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in encoder voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia salsiccia mollit anim id est cicciotto laborum sed ut bracciotto unde omnis iste natus error sit voluptatem.
+
+![WD40](assets\images\wd40.webp)

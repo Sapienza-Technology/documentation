@@ -90,6 +90,9 @@ custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
 ]
 
+#enabling of attribute list
+[project.markdown_extensions.attr_list]
+
 #enabling of definition lists
 [project.markdown_extensions.def_list]
 
