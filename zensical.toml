@@ -11,61 +11,28 @@ nav = [
    { "Get started" = "index.md" },
    { "Markdown in 5min" = "markdown.md" },
    { "Example documentation page" = "example.md" },
+   {"Cameras & Communication" = [
+    { "Arm Cameras" = "cameras/arm/arm.md" },
+    { "Rover Cameras" = "cameras/rover/rover.md" },
+    { "Antenna" = "cameras/antenna/antenna.md" }
+    ]},
+   {"Drone" = "drone/drone.md" },
    { "Instruments & Manipulation" = [
     {"General" = "instruments/general.md"},
-    { "Arm" = [
-     { "Software" = "instruments/arm/software.md" },
-     { "Electronics" = "instruments/arm/electronics.md" },
-     { "Hardware" = "instruments/arm/hardware.md" },
-      {"Code repository" = "instruments/arm/repo.md"},
-      { "End Effector" = [
-        { "Software" = "instruments/arm/ee/software.md" },
-        { "Electronics" = "instruments/arm/ee/electronics.md" },
-        { "Hardware" = "instruments/arm/ee/hardware.md" }
-      ]}
+    { "Arm" = "instruments/arm/arm.md" },
+    { "Code repository" = "instruments/arm/repo.md"},
+    { "End Effector" = "instruments/arm/ee/ee.md" },
+    { "Drill" = "instruments/drill/drill.md" }
     ]},
-    { "Drill" = [
-     { "Software" = "instruments/drill/software.md" },
-     { "Electronics" = "instruments/drill/electronics.md" },
-     { "Hardware" = "instruments/drill/hardware.md" }
-    ]}]},
-   {"Structure & Navigation" = [
-    { "Navigation" = [
-     { "Software" = "structure/navigation/software.md" },
-     { "Electronics" = "structure/navigation/electronics.md" },
-     { "Hardware" = "structure/navigation/hardware.md" }
-    ]},
-    { "Wheels" = [
-     { "Software" = "structure/wheels/software.md" },
-     { "Electronics" = "structure/wheels/electronics.md" },
-     { "Hardware" = "structure/wheels/hardware.md" }
-    ]}]},
-   {"Cameras & Communication" = [
-    { "Arm Cameras" = [
-     { "Software" = "cameras/arm/software.md" },
-     { "Electronics" = "cameras/arm/electronics.md" },
-     { "Hardware" = "cameras/arm_/hardware.md" }
-    ]},
-    { "Rover Cameras" = [
-     { "Software" = "cameras/rover/software.md" },
-     { "Electronics" = "cameras/rover/electronics.md" },
-     { "Hardware" = "cameras/rover/hardware.md" }
-    ]},
-    { "Antenna" = [
-     { "Software" = "cameras/antenna/software.md" },
-     { "Electronics" = "cameras/antenna/electronics.md" },
-     { "Hardware" = "cameras/antenna/hardware.md" }
-    ]}]},
-   {"Drone" = [
-     { "Software" = "drone/software.md" },
-     { "Electronics" = "drone/electronics.md" },
-     { "Hardware" = "drone/hardware.md" }
-   ]},
    {"Science & Mission Ops" = [
      {"ERC Operations" = "science/operations.md" },
-     {"Geological maps" = "science/geo.md"},
-     {"Tests done" = "science/tests.md"}
-   ]}
+     {"Geological maps" = "science/maps.md"},
+     {"Tests done" = "science/test.md"}
+   ]},
+   {"Structure & Navigation" = [
+    { "Navigation" = "structure/navigation/navigation.md" },
+    { "Wheels" = "structure/wheels/wheels.md" }
+    ]}
  ]
 
 extra_css = ["stylesheets/extra.css"]

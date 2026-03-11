@@ -3,9 +3,6 @@
 
 Here is a [Demo page](https://docs.owid.io/projects/etl/guides/demo/) for all Zensical features
 
-![Panino](assets\images\panino.webp)
-<!--img src="assets\images\panino.webp" alt="Panino" class="my-image"-->
-
 esempio pazzo
 
 ### Contenuto
@@ -47,6 +44,8 @@ esempio pazzo
 
     - cit. Giorgio
 
+  
+![Panino](assets\images\panino.webp)
 
 ## Project layout
 

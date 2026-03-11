@@ -1,3 +1,5 @@
-# Dummy Page
+# Maps
+
+## Dummy Page
 
 ![Viscio](../assets/images/viscio.webp)

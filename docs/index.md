@@ -11,7 +11,7 @@ Please follow this guide to avoid getting **salsicciato** by us maintainers.
 
 If you have troubles committing to the repo please talk to your group leaders first. We can update and commit on your behalf if you don't want to learn Markdown.
 
-## 0. What are Github and Zensical?
+## What are Github and Zensical?
 **Github** is just a way for us to have backup of what is done, allowing everyone to edit the documentation and allowing us to revert it to the previous state if, let's say, someone deletes a page or does something by mistake.  
 We found no suitable video tutorial to link, so we will make one and publish it on youtube asap.
 
@@ -91,10 +91,10 @@ It is recommended to read the [Markdown page](https://sapienza-technology.github
 
 If you need to add info on the documentation:
 
-1. First prepare your changes on the main branch.
+1. First prepare your changes editing on the main branch. DO NOT COMMIT!
 2. Create a new branch of the repo with name: "division_name-branch_name"
 3. Commit your changes on the new branch
-4. Once finalized all the changes ask your team leaders to check
-5. After the check ask team leaders for the merge
+4. Once finalized all the changes ask your division leaders to check
+5. After the check ask team leaders for final check and merge
 
 ---
