@@ -19,9 +19,9 @@ nav = [
    {"Drone" = "drone/drone.md" },
    { "Instruments & Manipulation" = [
     {"General" = "instruments/general.md"},
-    { "Arm" = "instruments/arm/arm.md" },
+    { "Arm" = "instruments/arm/main.md" },
     { "Code repository" = "instruments/arm/repo.md"},
-    { "End Effector" = "instruments/arm/ee/ee.md" },
+    { "End Effector" = "instruments/arm/ee.md" },
     { "Drill" = "instruments/drill/drill.md" }
     ]},
    {"Science & Mission Ops" = [
@@ -50,6 +50,9 @@ palette.primary = "orange"
 palette.accent = "deep orange"
 
 #enabling of diagrams
+
+[project.markdown_extensions.pymdownx.snippets]
+[project.markdown_extensions.pymdownx.tasklist]
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.pymdownx.details]
 [project.markdown_extensions.pymdownx.superfences]

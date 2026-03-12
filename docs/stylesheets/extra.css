@@ -31,3 +31,14 @@
   color: rgb(255, 186, 101) !important;
   font-weight: 200 !important;
 }
+
+/* Custom table border color */
+.md-typeset table, .md-typeset th, .md-typeset td {
+  border: 1px solid silver !important; /* Use a brownish color similar to h2 */
+}
+
+/* Custom horizontal rule color */
+.md-typeset hr {
+  border: none;
+  border-top: 2px solid silver;
+}

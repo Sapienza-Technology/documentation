@@ -91,49 +91,56 @@ def puzza():
 ```
 
 ## Lists
-```
 Unordered:
+
 - Item 1
 - Item 2
-  - Nested item
+    - Nested item
 
 Ordered:
+
 1. First item
+   1. First sub-item of first item
 2. Second item
+   1. First sub-item of second item
+   2. Second sub-item of second item
 3. Third item
-```
+
+!!! question "La lista non funziona?"
+
+    Prova a inserire una riga vuota tra titolo della lista ed elementi
 
 ## Definition lists
+
 `Definition list`
 
 :   This is the first definition
 :   This is the second definition
 
 ## Blockquotes
-```
+
 > This is a blockquote
 > Multiple lines
 >> Nested quote
-```
 
 ## Code blocks
-````
-```javascript
+````javascript
 function hello() {
   console.log("Hello, world!");
 }
-```
 ````
 
 ## Tables
-```
+
 | Header 1 | Header 2 | Header 3 |
 |----------|----------|----------|
 | Row 1    | Data     | Data     |
 | Row 2    | Data     | Data     |
-```
 
 ## Horizontal rule
+
+---
+
 ```
 ---
 or
@@ -143,11 +150,10 @@ ___
 ```
 
 ## Task lists
-```
 - [x] Completed task
+    - [ ] Subtask
 - [ ] Incomplete task
 - [ ] Another task
-```
 
 ## Escaping characters
 ```
