@@ -1,0 +1,1 @@
+--8<-- "docs/cameras/arm/paragraphs/arm.md"

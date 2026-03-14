@@ -25,47 +25,51 @@ Before writing, you need to set up your "Development Environment". You only need
 
 ### Step A: Install the Tools
 1.  **VS Code**: Download and install [Visual Studio Code](https://code.visualstudio.com/). This is the editor we use.
-2.  **Git**: Download and install [Git](https://git-scm.com/downloads).
-       *Windows users:* Select "Use Git from the Windows Command Prompt" during installation.
-3.  **Python**: Zensical runs on Python. Download [Python 3.x](https://www.python.org/downloads/).
-       !!! warning "Important for Windows"
-        During installation, make sure to check the box **"Add Python to PATH"** at the bottom of the installer window.
-4. **PyEnv**: it is recommended by the developers to install Zensical on a virtual environment.
-       If you are on Ubuntu (as you should) install pyenv using the official installer:
+2.  **Git**: Download and install [Git](https://git-scm.com/downloads).  
+3.  **Python**: Zensical runs on Python. Download [Python 3.x](https://www.python.org/downloads/) or simply download it through the **"Extensions"** panel of VSCode.
 
-    `curl https://pyenv.run | bash`
+!!! warning "Important for Windows"
 
-    Then follow the message that appears in the console and add those lines to ~/.bashrc
+       * During Git installation, select **"Use Git from the Windows Command Prompt"**.
 
-???+ info "About PyEnv installation"
+???+ info "PyEnv"
+       It is recommended by the developers to install Zensical on a virtual environment.  
+       
+       If you want to use PyEnv, during Python installation, make sure to check the box **"Add Python to PATH"** at the bottom of the installer window.
+      
+       If you are on Ubuntu (as you should) install pyenv using the official installer:  
+       `curl https://pyenv.run | bash`  
+       Then follow the message that appears in the console and add those lines to ~/.bashrc
+
        You can skip PyEnv and install Zensical out of the virtual environment and it will work smoothly. 
-       Installing it in a venv is just how the developers recommend to install it.
+       Installing it in a venv is just how the developers recommend to install it, but we don't care, it's simpler without it.
 
 ### Step B: VS Code Setup
 Open VS Code and install these recommended extensions (click the square icon on the left sidebar):
 
 *   **Markdown All in One** (by Yu Zhang) - Helps with shortcuts and table of contents.
-
 *   **Code Spell Checker** (by Street Side Software) - Typos are unprofessional!
-*   **GitHub Pull Requests** - Makes syncing easier.
 
 ### Step C: Install Zensical
-Open up a terminal window and install Zensical by first setting up a virtual environment and then using pip to install the Zensical package into it:
+Open up a terminal window and install Zensical by using pip to install the Zensical package:
 
 ```
-python3 -m venv .venv
-source .venv/bin/activate
 pip install zensical
 ```
 
-???+ info "About PyEnv installation"
-       You can skip PyEnv and install Zensical out of the virtual environment and it will work smoothly. 
-       Installing it in a venv is just how the developers recommend to install it.
+???+ info "PyEnv"
+       If you are using PyEnv create and activate your environment before installing zensical using:  
+       
+       ```
+       python3 -m venv .venv
+       source .venv/bin/activate
+       ```
 
 ### Step D: Clone repo
 You are now ready to clone the repo 'documentation' from the STT github and start editing it.
 
-Every time you open the project to do some changes first **Pull** to see if there are any changes incoming.
+Every time you open the project to do some changes first **Pull** to see if there are any changes incoming.  
+If GitHub signals any conflict please report to us.
 
 ---
 
@@ -78,23 +82,10 @@ In the terminal you have activated your virtual environment on just run:
 
 * Go to [localhost:8000](http://localhost:8000/documentation) or simply click this link.
 
-* Verify your changes and then **Commit** your edits. When you are done editing just **Push** in the repo.
-
-!!! warning "Versioning"
-       As a good practice always **Push** your changes when you finish your edit session.  
-       Remember to only push changes after checking that the local version is tested, otherwise you could get **salsicciato** if you have to correct your pushes.  
-       Please write good commit comments, so we can know what you just uploaded(another way to get **salsicciato**).
-
 It is recommended to read the [Markdown page](https://sapienza-technology.github.io/documentation/markdown/) to understand how to write markdown.
 
 ## 3. How to actually use Github
 
-If you need to add info on the documentation:
-
-1. First prepare your changes editing on the main branch. DO NOT COMMIT!
-2. Create a new branch of the repo with name: "division_name-branch_name"
-3. Commit your changes on the new branch
-4. Once finalized all the changes ask your division leaders to check
-5. After the check ask team leaders for final check and merge
+Look the guide [here](https://sapienza-technology.github.io/documentation/example/) on how to edit your files and commit on the repo.
 
 ---

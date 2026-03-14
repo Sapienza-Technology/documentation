@@ -1,0 +1,1 @@
+--8<-- "docs/structure/navigation/paragraphs/navigation.md"

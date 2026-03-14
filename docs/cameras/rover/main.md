@@ -1,0 +1,1 @@
+--8<-- "docs/cameras/rover/paragraphs/rover.md"

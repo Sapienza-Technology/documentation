@@ -1,4 +1,4 @@
-# Rover Cameras
+# Rover cameras
 
 ## Hardware
 

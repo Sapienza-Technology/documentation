@@ -49,11 +49,27 @@ esempio pazzo
 
 ## Project layout
 
-    zensical.toml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
+:clown: Example: Clowns repo
+```
+clowns_folder/                # The clowns of STT
+  real_clowns/                # Renowned clowns
+    nic.sch                   # It's always an Electronics problem
+    federico.md               # Our best and most renown clown
+  wannabe_clowns/             # They try to be clowns
+    giorgio.xml               # Tried to become a one-eyed clown
+    peri.html                 # He tries very hard to be one
+not_clowns_folder/            # They are "probably" not clowns
+  problably_not_clowns/       # You never know, maybe they are clowns in disguise
+    a_gravili.php             # Not a clown, but the detector crashes every time
+    viscio.xls                # Sometimes seems like a clown when sleeping 
+  absolutely_not_clowns/      # Surely not clowns
+    lorenzo.bmp               # The "not clown" god of images compression
+    a_santarelli.docx         # Father of the WD-40 family, and they are not clowns
+    vincenzo.ppt              # In charge to present Peri's work, while he does clown work
+__init__.py                   # empty file, we do not need to initialize clowns, they are already amongst us
+clown_detector.py             # Well, you need a way to detect them, sometimes the script crashes
+readme_please.txt             # Or maybe not
+```
 ```py title="titolo.py" linenums="15"
 def puzza():
 
@@ -72,8 +88,8 @@ def puzza():
 
 ## Text formatting
 ```
-**bold text**
 *italic text*
+**bold text**
 ***bold and italic***
 ~~strikethrough~~
 ==marked text==
@@ -85,10 +101,20 @@ def puzza():
 ## Links and images
 ```
 [Link text](https://example.com)
-[Link with title](https://example.com "Hover title")
-![Alt text](image.jpg)
+[Link with title](https://example.com "Hover title")  
+
+![Alt text of image](image.jpg)
 ![Image with title](image.jpg "Image title")
 ```
+
+??? help "My image is too big!"
+        You can use CSS syntax after the image.  
+        Example: ![Alt text](image.jpg){ width="300" }
+
+??? help "I can't see my image"
+      Try to use the html-style syntax. Use this example changing path accordingly:  
+      ```<img src="https://sapienza-technology.github.io/documentation/assets/images/viscio.webp">```
+
 
 ## Lists
 Unordered:
@@ -170,11 +196,13 @@ Or use a blank line for a new paragraph.
 ## Flowcharts
 ``` mermaid
 graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
+  A[Start] --> B{Encoder G4?};
+  B -->|Broken| C{Debug};
+  C -->|Electronic problem| D[Nic's Fault];
+  D -->|Nic pls fix it| B;
+  C -->|Software problem| E[Still Nic's Fault];
+  E -->|WE have to fix it| B;
+  B ---->|Functioning| F;
 ```
 
 ## Sequence diagrams

@@ -1,1 +1,1 @@
---8<-- "docs/instruments/arm/arm.md"
+--8<-- "docs/instruments/arm/paragraphs/arm.md"

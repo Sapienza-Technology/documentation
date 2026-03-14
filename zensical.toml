@@ -10,19 +10,18 @@ repo_name = "STT Documentation"
 nav = [
    { "Get started" = "index.md" },
    { "Markdown in 5min" = "markdown.md" },
-   { "Example documentation page" = "example.md" },
+   { "Editing guide" = "example.md" },
    {"Cameras & Communication" = [
-    { "Arm Cameras" = "cameras/arm/arm.md" },
-    { "Rover Cameras" = "cameras/rover/rover.md" },
-    { "Antenna" = "cameras/antenna/antenna.md" }
+    { "Arm Cameras" = "cameras/arm/main.md" },
+    { "Rover Cameras" = "cameras/rover/main.md" },
+    { "Antenna" = "cameras/antenna/main.md" }
     ]},
-   {"Drone" = "drone/drone.md" },
+   {"Drone" = "drone/main.md" },
    { "Instruments & Manipulation" = [
     {"General" = "instruments/general.md"},
     { "Arm" = "instruments/arm/main.md" },
     { "Code repository" = "instruments/arm/repo.md"},
-    { "End Effector" = "instruments/arm/ee.md" },
-    { "Drill" = "instruments/drill/drill.md" }
+    { "Drill" = "instruments/drill/main.md" }
     ]},
    {"Science & Mission Ops" = [
      {"ERC Operations" = "science/operations.md" },
@@ -30,8 +29,8 @@ nav = [
      {"Tests done" = "science/test.md"}
    ]},
    {"Structure & Navigation" = [
-    { "Navigation" = "structure/navigation/navigation.md" },
-    { "Wheels" = "structure/wheels/wheels.md" }
+    { "Navigation" = "structure/navigation/main.md" },
+    { "Wheels" = "structure/wheels/main.md" }
     ]}
  ]
 
