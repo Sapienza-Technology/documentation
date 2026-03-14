@@ -16,7 +16,12 @@ nav = [
     { "Rover Cameras" = "cameras/rover/main.md" },
     { "Antenna" = "cameras/antenna/main.md" }
     ]},
-   {"Drone" = "drone/main.md" },
+   {"Drone" = [
+      {"General" = "drone/general.md" },
+      {"Hardware" = "drone/hardware.md" },
+      {"Electronics" = "drone/electronics.md" },
+      {"Software" = "drone/software.md" }
+   ]},
    { "Instruments & Manipulation" = [
     {"General" = "instruments/general.md"},
     { "Arm" = "instruments/arm/main.md" },
