@@ -146,6 +146,8 @@ Folder layout
     #### semaforo_node.py
       1. A simple subscriber to control external LEDs (probably for system state debugging).
 
+---
+
 ### bracc8_control/launch - Startup Configuration
 Python scripts for node orchestration.
 #### bracc8_visualization.launch.py
