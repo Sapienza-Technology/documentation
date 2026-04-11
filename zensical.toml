@@ -35,11 +35,13 @@ nav = [
    ]},
    {"Structure & Navigation" = [
     { "Navigation" = "structure/navigation/main.md" },
-    { "Wheels" = "structure/wheels/main.md" }
+    { "Wheels" = "structure/wheels/main.md" },
+    { "Ansys Lectures" = "structure/ansys.md" }
     ]}
  ]
 
 extra_css = ["stylesheets/extra.css"]
+extra_javascript = ["assets/javascripts/extra.js"]
 
 [project.theme]
 custom_dir = "overrides"

@@ -42,3 +42,74 @@
   border: none;
   border-top: 2px solid silver;
 }
+
+/* Video container styles */
+.video-container {
+  position: relative;
+  width: 100%;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.video-container iframe {
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+/* Timestamp link styles */
+.md-typeset a[href*="seekYouTubeVideo"] {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.35rem 0.35rem 0.35rem 0;
+  background-color: rgb(207, 130, 50);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.md-typeset a[href*="seekYouTubeVideo"]:hover {
+  background-color: rgb(168, 114, 47);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(207, 130, 50, 0.4);
+}
+
+.md-typeset a[href*="seekYouTubeVideo"]:active {
+  transform: translateY(0);
+}
+
+/* Prevent JavaScript links from showing browser URL */
+.md-typeset a[href^="javascript:"] {
+  cursor: pointer;
+}
+
+/* Timestamps container */
+.timestamps {
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #f5f5f5;
+  border-left: 4px solid rgb(207, 130, 50);
+  border-radius: 4px;
+  font-style: italic;
+  color: #666;
+  cursor: help;
+}
+
+/* Responsive video containers */
+@media (max-width: 768px) {
+  .video-container iframe {
+    height: 300px;
+  }
+
+  .md-typeset a[data-time] {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    margin: 0.2rem 0.2rem;
+  }
+}
