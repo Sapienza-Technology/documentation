@@ -193,6 +193,26 @@ to create a line break.
 
 Or use a blank line for a new paragraph.
 ```
+
+## Math & formulas
+
+$\begin{cases}
+P=M*g \\
+P=2T \\
+T=\mu F
+\end{cases} \Rightarrow F=\frac{M*g}{2*\mu}=24,5N$
+```
+$\begin{cases}
+P=M*g \\
+P=2T \\
+T=\mu F
+\end{cases} \Rightarrow F=\frac{M*g}{2*\mu}=24,5N$ 
+```
+$\alpha=\arctan\left(\frac{P}{\pi*d}\right)$  
+```
+$\alpha=\arctan\left(\frac{P}{\pi*d}\right)$ 
+```
+
 ## Flowcharts
 ``` mermaid
 graph LR

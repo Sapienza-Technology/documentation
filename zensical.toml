@@ -25,6 +25,7 @@ nav = [
    { "Instruments & Manipulation" = [
     {"General" = "instruments/general.md"},
     { "Arm" = "instruments/arm/main.md" },
+    { "End Effector" = "instruments/arm/ee.md" },
     { "Code repository" = "instruments/arm/repo.md"},
     { "Drill" = "instruments/drill/main.md" }
     ]},
@@ -40,8 +41,20 @@ nav = [
     ]}
  ]
 
-extra_css = ["stylesheets/extra.css"]
-extra_javascript = ["assets/javascripts/extra.js"]
+extra_javascript = [
+    "assets/javascripts/extra.js",
+    "assets/javascripts/katex.js",
+    "https://unpkg.com/katex@0/dist/katex.min.js",
+    "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"
+]
+
+extra_css = [
+    "stylesheets/extra.css",
+    "https://unpkg.com/katex@0/dist/katex.min.css"
+]
+
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
 
 [project.theme]
 custom_dir = "overrides"
